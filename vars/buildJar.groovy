@@ -1,6 +1,6 @@
-#!/usr/bin/env groovy // let your editor detect you are working with groovy script
+#!/usr/bin/env groovy
 
 def call () {
-    echo "building the application branch $BRANCH_NAME"
+    echo 'building the application...'
     sh 'mvn package'
 }
