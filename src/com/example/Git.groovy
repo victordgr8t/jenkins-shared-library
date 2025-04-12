@@ -21,7 +21,7 @@ class Git implements Serializable {
                 script.sh "git remote set-url origin https://${script.USER}:${script.PASS}@github.com/victordgr8t/java-maven-app.git"
                 script.sh 'git add .'
                 script.sh 'git commit -m "ci: version bump"'
-                script.sh 'git push origin HEAD:main'
+                script.sh 'git push origin HEAD:jenkinsjobs'
             }
         }
     }
